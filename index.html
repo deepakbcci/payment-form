@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Gateway</title>
+    <link rel="stylesheet" href="./form.css">
+</head>
+<body>
+    <form>
+       
+        <div class="container">
+            <h1>Payment Form</h1>
+            <hr>
+            <h2>User Information</h2>
+            <p>Name: <br><input type="text"  placeholder="--Ram Kumar--" id="name" required></p>
+            <p>Gender:<br> <input type="radio" Name="Gender" value="Male">Male <input type="radio" Name="Gender" value="Female"> Female </p>
+            Address:
+            <p><textarea rows="8" cols="80" placeholder="Enter your Address"> </textarea></p>
+            <p>Email:<br> <input type="email" placeholder="xyx@gmail.com" Name="Email"></p>
+            <p>Pincode:<br> <input type="number" placeholder="--123456--" name="Pincode"></p>
+            <p id="payment">Payment Information</p>
+            <p></p>Card Type:<br> <select>
+                <option value="--Select a card type--" id="">--Select a card type--</option>
+                <option value="HDFC" id="Card type">HDFC</option>
+                <option value="ICICI" id="Card type">ICICI</option>
+                <option value="SBI" id="Card type">SBI</option>
+                <option value="Canara Bank" id="Card type">Canara Bank</option>
+            </select> </p>
+            <p>Card Number:<br> <input type="number" Name="Card number" required id="Card number" placeholder="1111-2222-3333-4444">
+            <p>Expiration date:<br> <select>
+                <option value="Month">--mm--</option>
+                <option value="Month">Jan</option>
+                <option value="Month">Feb</option>
+                <option value="Month">Mar</option>
+                <option value="Month">Apr</option>
+                <option value="Month">May</option>
+            </select>
+            <select>
+                <option value="Year">--yy--</option>
+                <option value="Year">2023</option>
+                <option value="Year">2024</option>
+                <option value="Year">2025</option>
+                <option value="Year">2026</option>
+                <option value="Year">2027</option>
+                <option value="Year">2028</option>
+                <option value="Year">2029</option>
+                <option value="Year">2030</option>
+            </select></p>
+
+            <p>CVV<br> <input type="number" Name="CVV" placeholder="enter your CVV"></p>
+            <p><input type="submit" value="Pay Now"></p>
+
+
+
+
+        </div>
+    </form>
+    
+</body>
+</html>
+
